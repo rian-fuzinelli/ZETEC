@@ -1,9 +1,8 @@
-# Zetec Project 📄
+# 📄 Zetec Project
+**Este repositório contém a landing page moderna e de alto desempenho desenvolvida para apresentação e desenvolvimento de projetos, construída com tecnologias modernas como React, TypeScript, Tailwind CSS e shadcn-ui**. 
 
-Bem-vindo(a) ao **Zetec Project**!  
-Este repositório contém a landing page moderna e de alto desempenho desenvolvida para desenvolvimento e apresentação de projeto, construída com tecnologias modernas como **React, TypeScript, Tailwind CSS e shadcn-ui**.  
 
-Explore este README para entender como configurar, desenvolver, editar e publicar o projeto.
+>*Explore este README para entender como configurar, desenvolver, editar e publicar o projeto.*
 
 ## 🚀 Overview
 
@@ -13,7 +12,7 @@ Zetec é uma **landing page profissional** focada em:
 - Código modular, escalável e fácil de manter  
 - Integração rápida com plataformas de deploy  
 
-Este projeto serve como front-end principal de serviços contábeis, pronto para contribuições, testes e deploys confiáveis.
+>*Este projeto serve como front-end principal de serviços contábeis, pronto para contribuições, testes e deploys confiáveis.*
 
 ## 🛠 Technology Stack 💻
 
@@ -27,8 +26,7 @@ Este projeto serve como front-end principal de serviços contábeis, pronto para
 
 ## 💻 Local Development Setup
 
-Antes de começar, instale **Node.js** e **npm**.  
-Recomendamos o uso de [**nvm**](https://github.com/nvm-sh/nvm) para gerenciar versões.
+>*Antes de começar, instale **Node.js** e **npm**.  Recomendamos o uso de [**nvm**](https://github.com/nvm-sh/nvm) para gerenciar versões.*
 
 ```bash
 # 1. Clone o repositório
