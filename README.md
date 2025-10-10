@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# Zetec Project 📄
 
-## Project info
+Bem-vindo(a) ao **Zetec Project**!  
+Este repositório contém a landing page moderna e de alto desempenho desenvolvida para desenvolvimento e apresentação de projeto, construída com tecnologias modernas como **React, TypeScript, Tailwind CSS e shadcn-ui**.  
 
-**URL**: https://lovable.dev/projects/62c37cf1-4fea-4107-9a35-5018db13c108
+Explore este README para entender como configurar, desenvolver, editar e publicar o projeto.
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
+Zetec é uma **landing page profissional** focada em:
 
-**Use Lovable**
+- Alta performance e experiência de usuário impecável  
+- Código modular, escalável e fácil de manter  
+- Integração rápida com plataformas de deploy  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/62c37cf1-4fea-4107-9a35-5018db13c108) and start prompting.
+Este projeto serve como front-end principal de serviços contábeis, pronto para contribuições, testes e deploys confiáveis.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Technology Stack 💻
 
-**Use your preferred IDE**
+| Tecnologia       | Propósito          | Benefício |
+|-----------------|------------------|-----------|
+| **Vite**         | Build Tool        | Servidor de desenvolvimento super rápido e builds otimizadas |
+| **React**        | Biblioteca de UI  | Estrutura declarativa baseada em componentes |
+| **TypeScript**   | Linguagem         | Tipagem estática para código mais seguro e manutenção facilitada |
+| **Tailwind CSS** | Styling           | Framework utilitário para estilização rápida e consistente |
+| **shadcn-ui**    | Component Library | Componentes React acessíveis e reutilizáveis |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 Local Development Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Antes de começar, instale **Node.js** e **npm**.  
+Recomendamos o uso de [**nvm**](https://github.com/nvm-sh/nvm) para gerenciar versões.
 
-Follow these steps:
+```bash
+# 1. Clone o repositório
+git clone https://github.com/rian-fuzinelli/zetec-contabil-landing.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Entre na pasta do projeto
+cd zetec-contabil-landing
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3. Instale as dependências
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/62c37cf1-4fea-4107-9a35-5018db13c108) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
