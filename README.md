@@ -9,7 +9,7 @@
 Zetec é uma **landing page profissional** focada em:
 
 - Alta performance e foco na experiência de usuário
-- Código modular, escalável e modulável
+- Código modular, escalável e fácil de manter
 - Integração rápida com plataformas de deploy  
 
 >*Este projeto serve como front-end principal de serviços contábeis, pronto para contribuições, testes e deploys confiáveis.*
