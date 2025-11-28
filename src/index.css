@@ -27,9 +27,9 @@ All colors MUST be HSL.
     --muted: 210 20% 96%;
     --muted-foreground: 213 30% 45%;
 
-    --accent: 48 100% 50%;
-    --accent-light: 48 100% 65%;
-    --accent-foreground: 213 94% 15%;
+    --accent: 45 95% 40%;
+    --accent-light: 45 95% 52%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -42,7 +42,7 @@ All colors MUST be HSL.
 
     /* Zetec gradients */
     --gradient-hero: linear-gradient(135deg, hsl(213 94% 20%), hsl(213 94% 35%));
-    --gradient-accent: linear-gradient(135deg, hsl(48 100% 50%), hsl(48 100% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(48 100% 46%), hsl(48 100% 60%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 20% 98%));
 
     /* Shadows */
@@ -57,35 +57,39 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 213 94% 8%;
-    --foreground: 0 0% 98%;
+    /* Unified dark-blue palette for all sections */
+    --background: 217 24% 8%; /* deep navy */
+    --foreground: 0 0% 92%; /* light gray for body text (not pure white) */
 
-    --card: 213 94% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 217 24% 12%;
+    --card-foreground: 0 0% 92%;
 
-    --popover: 213 94% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 217 24% 12%;
+    --popover-foreground: 0 0% 92%;
 
-    --primary: 213 94% 35%;
-    --primary-light: 213 94% 50%;
+    --primary: 217 70% 32%;
+    --primary-light: 217 70% 44%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 213 30% 20%;
+    --secondary: 217 20% 14%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 213 30% 20%;
-    --muted-foreground: 213 20% 65%;
+    --muted: 217 20% 14%;
+    --muted-foreground: 217 20% 65%;
 
-    --accent: 48 100% 50%;
-    --accent-light: 48 100% 65%;
-    --accent-foreground: 213 94% 15%;
+    --accent: 45 95% 48%;
+    --accent-light: 45 95% 58%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 213 30% 25%;
-    --input: 213 30% 25%;
-    --ring: 213 94% 50%;
+    --border: 217 16% 18%;
+    --input: 217 16% 18%;
+    --ring: 217 70% 44%;
+
+    /* Dark hero gradient override to keep deep-blue look */
+    --gradient-hero: linear-gradient(135deg, hsl(217 24% 10%), hsl(217 24% 16%));
   }
 }
 
@@ -96,5 +100,14 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Force main titles and elements using text-primary to be white in dark mode */
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark .text-primary {
+    color: hsl(var(--primary-foreground));
+    transition: color 200ms ease;
   }
 }

@@ -1,0 +1,166 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "services": "Servicios",
+    "news": "Noticias",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Soluciones contables para que su negocio",
+    "titleHighlight": "crezca con seguridad",
+    "subtitle": "Hace más de una década cuidando la salud financiera de empresas en Sertãozinho y región. Cuente con nuestra experiencia y atención personalizada.",
+    "cta": "Contáctenos por WhatsApp",
+    "stats": {
+      "experience": "Años de experiencia",
+      "clients": "Clientes atendidos",
+      "commitment": "Compromiso"
+    }
+  },
+  "about": {
+    "title": "Acerca de Zetec",
+    "subtitle": "Una firma contable consolidada en Sertãozinho, enfocada en atender empresas de pequeño y mediano porte que buscan excelencia y confianza.",
+    "story1": "<strong>Zetec Servicios Contables</strong> nació con el propósito de ofrecer soluciones contables eficientes y accesibles para empresas de todos los tamaños. Ubicada en el corazón de Sertãozinho, nuestro equipo está formado por profesionales calificados constantemente actualizados con los cambios en la legislación brasileña.",
+    "story2": "A lo largo de los años, hemos construido una trayectoria sólida basada en <strong>transparencia, compromiso y atención personalizada</strong>. Cada cliente es único, y trabajamos para entender las particularidades de su negocio, ofreciendo asesoría estratégica que va más allá de los números.",
+    "values": {
+      "mission": {
+        "title": "Misión",
+        "description": "Ofrecer soluciones contables de excelencia, facilitando el crecimiento sostenible de nuestros clientes."
+      },
+      "values": {
+        "title": "Valores",
+        "description": "Transparencia, ética, compromiso y atención personalizada en cada proyecto."
+      },
+      "experience": {
+        "title": "Experiencia",
+        "description": "Más de una década de actuación, siempre siguiendo los cambios fiscales y tributarios."
+      },
+      "growth": {
+        "title": "Crecimiento",
+        "description": "Socios de su éxito, ayudando a su negocio a crecer con seguridad y organización."
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones contables completas para empresas de todos los tamaños. De lo simple a lo complejo, estamos preparados para atenderle.",
+    "items": {
+      "tax": {
+        "title": "Impuesto sobre la Renta",
+        "description": "Declaración completa de Impuesto sobre la Renta Personal y Corporativa con análisis detallado y máximo reembolso."
+      },
+      "opening": {
+        "title": "Apertura de Empresa",
+        "description": "Consultoría completa para apertura de empresas, elección del régimen tributario ideal y registro en todos los organismos."
+      },
+      "personnel": {
+        "title": "Departamento de Personal",
+        "description": "Gestión completa de nómina, contrataciones, despidos, vacaciones y obligaciones laborales."
+      },
+      "fiscal": {
+        "title": "Contabilidad Fiscal",
+        "description": "Cálculo de impuestos, emisión de guías, registro fiscal y cumplimiento de todas las obligaciones accesorias."
+      },
+      "advisory": {
+        "title": "Asesoría Contable",
+        "description": "Planificación tributaria, consultoría estratégica y análisis de resultados para decisiones más asertivas."
+      }
+    }
+  },
+  "differentials": {
+    "title": "¿Por qué elegir Zetec?",
+    "subtitle": "Diferenciales que hacen de Zetec la mejor opción para cuidar la contabilidad de su negocio.",
+    "items": {
+      "personalized": {
+        "title": "Atención Personalizada",
+        "description": "Cada cliente es único. Entendemos las particularidades de su negocio y ofrecemos soluciones a medida."
+      },
+      "transparency": {
+        "title": "Transparencia Total",
+        "description": "Comunicación clara y directa. Siempre sabrá qué se está haciendo y por qué."
+      },
+      "experience": {
+        "title": "Experiencia Sólida",
+        "description": "Más de 10 años en el mercado, siguiendo todos los cambios fiscales y tributarios del país."
+      },
+      "commitment": {
+        "title": "Compromiso con Resultados",
+        "description": "Su éxito es nuestro éxito. Trabajamos para que su empresa crezca con seguridad y organización."
+      }
+    }
+  },
+  "news": {
+    "title": "Noticias y Novedades",
+    "subtitle": "Manténgase informado sobre las últimas actualizaciones fiscales, tributarias y laborales. La información es poder para su negocio.",
+    "readMore": "Leer más",
+    "cta": {
+      "text": "¿Desea recibir nuestras actualizaciones directamente en su correo electrónico?",
+      "button": "Activar notificaciones"
+    },
+    "items": {
+      "item1": {
+        "date": "15 de Marzo, 2025",
+        "category": "Tributario",
+        "title": "Plazo para declaración del Impuesto sobre la Renta 2025",
+        "description": "Preste atención a los plazos y documentos necesarios para la declaración del IR de este año. Nuestro equipo está listo para ayudarle."
+      },
+      "item2": {
+        "date": "08 de Marzo, 2025",
+        "category": "Laboral",
+        "title": "Cambios en el eSocial para 2025",
+        "description": "Nuevas obligaciones han entrado en vigor. Sepa cómo Zetec puede mantener su empresa en conformidad con las nuevas reglas."
+      },
+      "item3": {
+        "date": "01 de Marzo, 2025",
+        "category": "Planificación",
+        "title": "Planificación tributaria: ahorre legalmente",
+        "description": "Descubra cómo una buena planificación tributaria puede reducir la carga de impuestos de su empresa sin infringir la ley."
+      }
+    }
+  },
+  "contact": {
+    "title": "Póngase en Contacto",
+    "subtitle": "Estamos listos para atenderle. Contáctenos por teléfono, correo electrónico o complete el formulario a continuación.",
+    "info": {
+      "address": "Dirección",
+      "addressContent": "Rua Expedicionário, 1607",
+      "addressSubtitle": "Centro, Sertãozinho - SP",
+      "phone": "Teléfono",
+      "phoneContent": "(16) 3942-5787",
+      "phoneSubtitle": "WhatsApp: (16) 99202-9148",
+      "email": "Correo",
+      "emailContent": "zeteccontabil@hotmail.com",
+      "emailSubtitle": "Respondemos en 24h",
+      "hours": "Horario",
+      "hoursContent": "Lunes a Viernes",
+      "hoursSubtitle": "08:00 a 18:00"
+    },
+    "form": {
+      "title": "Envíe su mensaje",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarle?",
+      "submit": "Enviar mensaje",
+      "success": "¡Mensaje enviado!",
+      "successDescription": "Nos pondremos en contacto pronto. ¡Gracias!",
+      "error": "Campos obligatorios",
+      "errorDescription": "Por favor, complete todos los campos obligatorios."
+    },
+    "map": {
+      "title": "Nuestra ubicación",
+      "subtitle": "Visite nuestra oficina en el corazón de Sertãozinho"
+    }
+  },
+  "footer": {
+    "brand": "Soluciones contables de excelencia para el crecimiento seguro y sostenible de su negocio.",
+    "quickLinks": "Enlaces Rápidos",
+    "aboutUs": "Acerca de Nosotros",
+    "contactInfo": "Contacto",
+    "copyright": "Zetec Servicios Contables. Todos los derechos reservados."
+  },
+  "whatsapp": {
+    "aria": "Contáctenos por WhatsApp"
+  }
+}

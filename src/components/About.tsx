@@ -1,26 +1,29 @@
 import { Target, Users, Award, TrendingUp } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+  
   const values = [
     {
       icon: Target,
-      title: "Missão",
-      description: "Oferecer soluções contábeis de excelência, facilitando o crescimento sustentável dos nossos clientes."
+      title: t('about.values.mission.title'),
+      description: t('about.values.mission.description')
     },
     {
       icon: Users,
-      title: "Valores",
-      description: "Transparência, ética, compromisso e atendimento personalizado em cada projeto."
+      title: t('about.values.values.title'),
+      description: t('about.values.values.description')
     },
     {
       icon: Award,
-      title: "Experiência",
-      description: "Mais de uma década de atuação, sempre acompanhando as mudanças fiscais e tributárias."
+      title: t('about.values.experience.title'),
+      description: t('about.values.experience.description')
     },
     {
       icon: TrendingUp,
-      title: "Crescimento",
-      description: "Parceiros do seu sucesso, ajudando seu negócio a crescer com segurança e organização."
+      title: t('about.values.growth.title'),
+      description: t('about.values.growth.description')
     }
   ];
 
@@ -30,30 +33,25 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Sobre a Zetec
+            <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-primary-foreground mb-4">
+              {t('about.title')}
             </h2>
             <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Um escritório contábil consolidado em Sertãozinho, com atendimento focado
-              em empresas de pequeno e médio porte que buscam excelência e confiança.
+              {t('about.subtitle')}
             </p>
           </div>
 
           {/* Story */}
           <div className="bg-card rounded-2xl shadow-lg p-8 md:p-12 mb-12 animate-fade-in">
-            <p className="text-foreground leading-relaxed text-lg mb-6">
-              A <strong className="text-primary">Zetec Serviços Contábeis</strong> nasceu com o propósito de
-              oferecer soluções contábeis eficientes e acessíveis para empresas de todos os portes.
-              Localizada no coração de Sertãozinho, nossa equipe é formada por profissionais qualificados
-              e constantemente atualizados com as mudanças da legislação brasileira.
-            </p>
-            <p className="text-foreground leading-relaxed text-lg">
-              Ao longo dos anos, construímos uma trajetória sólida baseada em <strong className="text-accent">
-              transparência, compromisso e atendimento personalizado</strong>. Cada cliente é único, e
-              trabalhamos para entender as particularidades do seu negócio, oferecendo assessoria
-              estratégica que vai além dos números.
-            </p>
+            <p 
+              className="text-foreground leading-relaxed text-lg mb-6"
+              dangerouslySetInnerHTML={{ __html: t('about.story1') }}
+            />
+            <p 
+              className="text-foreground leading-relaxed text-lg"
+              dangerouslySetInnerHTML={{ __html: t('about.story2') }}
+            />
           </div>
 
           {/* Values Grid */}
@@ -69,7 +67,7 @@ const About = () => {
                   <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mb-4 shadow-accent">
                     <Icon className="text-accent-foreground" size={24} />
                   </div>
-                  <h3 className="text-xl font-bold text-primary mb-2">{value.title}</h3>
+                  <h3 className="text-xl font-bold text-primary dark:text-primary-foreground mb-2">{value.title}</h3>
                   <p className="text-muted-foreground">{value.description}</p>
                 </div>
               );

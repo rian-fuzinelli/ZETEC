@@ -5,9 +5,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { toast } = useToast();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,8 +23,8 @@ const Contact = () => {
     // Validação básica
     if (!formData.name || !formData.email || !formData.message) {
       toast({
-        title: "Campos obrigatórios",
-        description: "Por favor, preencha todos os campos obrigatórios.",
+        title: t('contact.form.error'),
+        description: t('contact.form.errorDescription'),
         variant: "destructive"
       });
       return;
@@ -30,8 +32,8 @@ const Contact = () => {
 
     // Simular envio
     toast({
-      title: "Mensagem enviada!",
-      description: "Entraremos em contato em breve. Obrigado!",
+      title: t('contact.form.success'),
+      description: t('contact.form.successDescription'),
     });
 
     // Limpar formulário
@@ -41,27 +43,27 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: "Endereço",
-      content: "Rua Expedicionário, 1607",
-      subtitle: "Centro, Sertãozinho - SP"
+      title: t('contact.info.address'),
+      content: t('contact.info.addressContent'),
+      subtitle: t('contact.info.addressSubtitle')
     },
     {
       icon: Phone,
-      title: "Telefone",
-      content: "(16) 3942-5787",
-      subtitle: "WhatsApp: (16) 99202-9148"
+      title: t('contact.info.phone'),
+      content: t('contact.info.phoneContent'),
+      subtitle: t('contact.info.phoneSubtitle')
     },
     {
       icon: Mail,
-      title: "E-mail",
-      content: "zeteccontabil@hotmail.com",
-      subtitle: "Respondemos em até 24h"
+      title: t('contact.info.email'),
+      content: t('contact.info.emailContent'),
+      subtitle: t('contact.info.emailSubtitle')
     },
     {
       icon: Clock,
-      title: "Horário",
-      content: "Segunda a Sexta",
-      subtitle: "08:00 às 18:00"
+      title: t('contact.info.hours'),
+      content: t('contact.info.hoursContent'),
+      subtitle: t('contact.info.hoursSubtitle')
     }
   ];
 
@@ -71,12 +73,12 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Entre em Contato
+            <h2 className="text-3xl md:text-4xl font-bold text-primary dark:text-primary-foreground mb-4">
+              {t('contact.title')}
             </h2>
             <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Estamos prontos para atender você. Entre em contato por telefone, e-mail ou preencha o formulário abaixo.
+              {t('contact.subtitle')}
             </p>
           </div>
 
@@ -94,12 +96,12 @@ const Contact = () => {
                     <div className="w-12 h-12 bg-gradient-accent rounded-lg flex items-center justify-center mx-auto mb-2 shadow-accent">
                       <Icon className="text-accent-foreground" size={24} />
                     </div>
-                    <CardTitle className="text-sm text-muted-foreground">
+                    <CardTitle className="text-sm text-muted-foreground dark:text-primary-foreground">
                       {info.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="font-semibold text-primary mb-1">{info.content}</p>
+                    <p className="font-semibold text-primary dark:text-primary-foreground mb-1">{info.content}</p>
                     <p className="text-sm text-muted-foreground">{info.subtitle}</p>
                   </CardContent>
                 </Card>
@@ -110,18 +112,18 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <Card className="shadow-lg animate-fade-in">
-              <CardHeader>
-                <CardTitle className="text-2xl text-primary">Envie sua mensagem</CardTitle>
+                <CardHeader>
+                <CardTitle className="text-2xl text-primary dark:text-primary-foreground">{t('contact.form.title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                      Nome completo *
+                      {t('contact.form.name')} *
                     </label>
                     <Input
                       id="name"
-                      placeholder="Seu nome"
+                      placeholder={t('contact.form.name')}
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       required
@@ -130,12 +132,12 @@ const Contact = () => {
 
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                      E-mail *
+                      {t('contact.form.email')} *
                     </label>
                     <Input
                       id="email"
                       type="email"
-                      placeholder="seu@email.com"
+                      placeholder={t('contact.form.email')}
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
@@ -144,12 +146,12 @@ const Contact = () => {
 
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                      Telefone
+                      {t('contact.form.phone')}
                     </label>
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="(00) 00000-0000"
+                      placeholder={t('contact.form.phone')}
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     />
@@ -157,11 +159,11 @@ const Contact = () => {
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Mensagem *
+                      {t('contact.form.message')} *
                     </label>
                     <Textarea
                       id="message"
-                      placeholder="Como podemos ajudar você?"
+                      placeholder={t('contact.form.messagePlaceholder')}
                       rows={5}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -171,7 +173,7 @@ const Contact = () => {
 
                   <Button type="submit" className="w-full bg-primary hover:bg-primary-light group">
                     <Send className="mr-2 group-hover:translate-x-1 transition-transform" size={18} />
-                    Enviar mensagem
+                    {t('contact.form.submit')}
                   </Button>
                 </form>
               </CardContent>
@@ -180,13 +182,13 @@ const Contact = () => {
             {/* Map */}
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <Card className="shadow-lg border-0 overflow-hidden h-full">
-                <CardHeader className="bg-gradient-to-br from-primary/5 to-accent/5 pb-6">
-                  <CardTitle className="text-2xl text-primary flex items-center gap-2">
+                  <CardHeader className="bg-gradient-to-br from-primary/5 to-accent/5 pb-6">
+                  <CardTitle className="text-2xl text-primary dark:text-primary-foreground flex items-center gap-2">
                     <MapPin className="text-accent" size={24} />
-                    Nossa localização
+                    {t('contact.map.title')}
                   </CardTitle>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Visite nosso escritório no coração de Sertãozinho
+                    {t('contact.map.subtitle')}
                   </p>
                 </CardHeader>
                 <CardContent className="p-6">

@@ -1,0 +1,166 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Accounting solutions for your business to",
+    "titleHighlight": "grow safely",
+    "subtitle": "For over a decade caring for the financial health of companies in Sertãozinho and region. Count on our experience and personalized service.",
+    "cta": "Contact us on WhatsApp",
+    "stats": {
+      "experience": "Years of experience",
+      "clients": "Clients served",
+      "commitment": "Commitment"
+    }
+  },
+  "about": {
+    "title": "About Zetec",
+    "subtitle": "A consolidated accounting firm in Sertãozinho, focused on serving small and medium-sized businesses seeking excellence and trust.",
+    "story1": "<strong>Zetec Accounting Services</strong> was born with the purpose of offering efficient and accessible accounting solutions for companies of all sizes. Located in the heart of Sertãozinho, our team is made up of qualified professionals constantly updated with changes in Brazilian legislation.",
+    "story2": "Over the years, we have built a solid trajectory based on <strong>transparency, commitment and personalized service</strong>. Each client is unique, and we work to understand the particularities of your business, offering strategic advice that goes beyond numbers.",
+    "values": {
+      "mission": {
+        "title": "Mission",
+        "description": "Provide excellent accounting solutions, facilitating the sustainable growth of our clients."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Transparency, ethics, commitment and personalized service in each project."
+      },
+      "experience": {
+        "title": "Experience",
+        "description": "Over a decade of operation, always keeping up with fiscal and tax changes."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Partners in your success, helping your business grow with security and organization."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete accounting solutions for companies of all sizes. From simple to complex, we are prepared to serve you.",
+    "items": {
+      "tax": {
+        "title": "Income Tax",
+        "description": "Complete Individual and Corporate Income Tax filing with detailed analysis and maximum refund."
+      },
+      "opening": {
+        "title": "Company Formation",
+        "description": "Complete consulting for opening companies, choosing the ideal tax regime and registration with all agencies."
+      },
+      "personnel": {
+        "title": "HR Department",
+        "description": "Complete payroll management, hiring, terminations, vacations and labor obligations."
+      },
+      "fiscal": {
+        "title": "Tax Accounting",
+        "description": "Tax calculation, guide issuance, tax bookkeeping and compliance with all ancillary obligations."
+      },
+      "advisory": {
+        "title": "Accounting Advisory",
+        "description": "Tax planning, strategic consulting and results analysis for more assertive decisions."
+      }
+    }
+  },
+  "differentials": {
+    "title": "Why choose Zetec?",
+    "subtitle": "Differentials that make Zetec the best choice to take care of your business accounting.",
+    "items": {
+      "personalized": {
+        "title": "Personalized Service",
+        "description": "Each client is unique. We understand the particularities of your business and offer tailored solutions."
+      },
+      "transparency": {
+        "title": "Total Transparency",
+        "description": "Clear and direct communication. You will always know what is being done and why."
+      },
+      "experience": {
+        "title": "Solid Experience",
+        "description": "Over 10 years in the market, keeping up with all fiscal and tax changes in the country."
+      },
+      "commitment": {
+        "title": "Commitment to Results",
+        "description": "Your success is our success. We work so that your company grows with security and organization."
+      }
+    }
+  },
+  "news": {
+    "title": "News and Updates",
+    "subtitle": "Stay informed about the latest tax, fiscal and labor updates. Information is power for your business.",
+    "readMore": "Read more",
+    "cta": {
+      "text": "Want to receive our updates directly in your email?",
+      "button": "Enable notifications"
+    },
+    "items": {
+      "item1": {
+        "date": "March 15, 2025",
+        "category": "Tax",
+        "title": "Deadline for 2025 Income Tax filing",
+        "description": "Pay attention to the deadlines and documents required for this year's tax return. Our team is ready to help you."
+      },
+      "item2": {
+        "date": "March 08, 2025",
+        "category": "Labor",
+        "title": "Changes in eSocial for 2025",
+        "description": "New obligations have come into effect. Learn how Zetec can keep your company in compliance with the new rules."
+      },
+      "item3": {
+        "date": "March 01, 2025",
+        "category": "Planning",
+        "title": "Tax planning: save legally",
+        "description": "Discover how good tax planning can reduce your company's tax burden without breaking the law."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We are ready to serve you. Contact us by phone, email or fill out the form below.",
+    "info": {
+      "address": "Address",
+      "addressContent": "Rua Expedicionário, 1607",
+      "addressSubtitle": "Downtown, Sertãozinho - SP",
+      "phone": "Phone",
+      "phoneContent": "(16) 3942-5787",
+      "phoneSubtitle": "WhatsApp: (16) 99202-9148",
+      "email": "Email",
+      "emailContent": "zeteccontabil@hotmail.com",
+      "emailSubtitle": "We respond within 24h",
+      "hours": "Hours",
+      "hoursContent": "Monday to Friday",
+      "hoursSubtitle": "08:00 AM to 06:00 PM"
+    },
+    "form": {
+      "title": "Send your message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send message",
+      "success": "Message sent!",
+      "successDescription": "We will contact you soon. Thank you!",
+      "error": "Required fields",
+      "errorDescription": "Please fill in all required fields."
+    },
+    "map": {
+      "title": "Our location",
+      "subtitle": "Visit our office in the heart of Sertãozinho"
+    }
+  },
+  "footer": {
+    "brand": "Excellent accounting solutions for safe and sustainable growth of your business.",
+    "quickLinks": "Quick Links",
+    "aboutUs": "About Us",
+    "contactInfo": "Contact",
+    "copyright": "Zetec Accounting Services. All rights reserved."
+  },
+  "whatsapp": {
+    "aria": "Contact us on WhatsApp"
+  }
+}

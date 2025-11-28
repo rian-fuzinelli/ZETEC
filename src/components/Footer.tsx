@@ -1,10 +1,12 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-primary text-primary-foreground dark:bg-secondary dark:text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-12 lg:gap-16 mb-12">
           {/* Brand */}
@@ -14,25 +16,25 @@ const Footer = () => {
                 <span className="text-accent-foreground font-bold text-lg">Z</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Zetec</h3>
+                <h3 className="text-xl font-bold dark:text-primary-foreground">Zetec</h3>
                 <p className="text-xs text-primary-foreground/80">Serviços Contábeis</p>
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
-              Soluções contábeis de excelência para o crescimento seguro e sustentável do seu negócio.
+              {t('footer.brand')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-bold mb-4">Links Rápidos</h4>
+            <h4 className="text-lg font-bold mb-4 dark:text-primary-foreground">{t('footer.quickLinks')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <button
                   onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  Sobre Nós
+                  {t('footer.aboutUs')}
                 </button>
               </li>
               <li>
@@ -40,7 +42,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  Serviços
+                  {t('header.services')}
                 </button>
               </li>
               <li>
@@ -48,7 +50,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('news')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  Notícias
+                  {t('header.news')}
                 </button>
               </li>
               <li>
@@ -56,7 +58,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  Contato
+                  {t('header.contact')}
                 </button>
               </li>
             </ul>
@@ -64,7 +66,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold mb-4">Contato</h4>
+            <h4 className="text-lg font-bold mb-4 dark:text-primary-foreground">{t('footer.contactInfo')}</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="flex-shrink-0 mt-0.5 text-accent" />
@@ -98,7 +100,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {currentYear} Zetec Serviços Contábeis. Todos os direitos reservados.
+            © {currentYear} {t('footer.copyright')}
           </p>
         </div>
       </div>

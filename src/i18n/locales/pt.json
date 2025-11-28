@@ -1,0 +1,166 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "news": "Notícias",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Soluções contábeis para o seu negócio",
+    "titleHighlight": "crescer com segurança",
+    "subtitle": "Há mais de uma década cuidando da saúde financeira de empresas em Sertãozinho e região. Conte com nossa experiência e atendimento personalizado.",
+    "cta": "Fale conosco pelo WhatsApp",
+    "stats": {
+      "experience": "Anos de experiência",
+      "clients": "Clientes atendidos",
+      "commitment": "Compromisso"
+    }
+  },
+  "about": {
+    "title": "Sobre a Zetec",
+    "subtitle": "Um escritório contábil consolidado em Sertãozinho, com atendimento focado em empresas de pequeno e médio porte que buscam excelência e confiança.",
+    "story1": "A <strong>Zetec Serviços Contábeis</strong> nasceu com o propósito de oferecer soluções contábeis eficientes e acessíveis para empresas de todos os portes. Localizada no coração de Sertãozinho, nossa equipe é formada por profissionais qualificados e constantemente atualizados com as mudanças da legislação brasileira.",
+    "story2": "Ao longo dos anos, construímos uma trajetória sólida baseada em <strong>transparência, compromisso e atendimento personalizado</strong>. Cada cliente é único, e trabalhamos para entender as particularidades do seu negócio, oferecendo assessoria estratégica que vai além dos números.",
+    "values": {
+      "mission": {
+        "title": "Missão",
+        "description": "Oferecer soluções contábeis de excelência, facilitando o crescimento sustentável dos nossos clientes."
+      },
+      "values": {
+        "title": "Valores",
+        "description": "Transparência, ética, compromisso e atendimento personalizado em cada projeto."
+      },
+      "experience": {
+        "title": "Experiência",
+        "description": "Mais de uma década de atuação, sempre acompanhando as mudanças fiscais e tributárias."
+      },
+      "growth": {
+        "title": "Crescimento",
+        "description": "Parceiros do seu sucesso, ajudando seu negócio a crescer com segurança e organização."
+      }
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções contábeis completas para empresas de todos os portes. Do simples ao complexo, estamos preparados para atender você.",
+    "items": {
+      "tax": {
+        "title": "Imposto de Renda",
+        "description": "Declaração completa de Imposto de Renda Pessoa Física e Jurídica com análise detalhada e máxima restituição."
+      },
+      "opening": {
+        "title": "Abertura de Firma",
+        "description": "Consultoria completa para abertura de empresas, escolha do regime tributário ideal e registro em todos os órgãos."
+      },
+      "personnel": {
+        "title": "Departamento Pessoal",
+        "description": "Gestão completa de folha de pagamento, admissões, rescisões, férias e obrigações trabalhistas."
+      },
+      "fiscal": {
+        "title": "Escrita Fiscal",
+        "description": "Apuração de impostos, emissão de guias, escrituração fiscal e cumprimento de todas as obrigações acessórias."
+      },
+      "advisory": {
+        "title": "Assessoria Contábil",
+        "description": "Planejamento tributário, consultoria estratégica e análise de resultados para decisões mais assertivas."
+      }
+    }
+  },
+  "differentials": {
+    "title": "Por que escolher a Zetec?",
+    "subtitle": "Diferenciais que fazem da Zetec a melhor escolha para cuidar da contabilidade do seu negócio.",
+    "items": {
+      "personalized": {
+        "title": "Atendimento Personalizado",
+        "description": "Cada cliente é único. Entendemos as particularidades do seu negócio e oferecemos soluções sob medida."
+      },
+      "transparency": {
+        "title": "Transparência Total",
+        "description": "Comunicação clara e direta. Você sempre saberá o que está sendo feito e por quê."
+      },
+      "experience": {
+        "title": "Experiência Sólida",
+        "description": "Mais de 10 anos no mercado, acompanhando todas as mudanças fiscais e tributárias do país."
+      },
+      "commitment": {
+        "title": "Compromisso com Resultados",
+        "description": "Seu sucesso é o nosso sucesso. Trabalhamos para que sua empresa cresça com segurança e organização."
+      }
+    }
+  },
+  "news": {
+    "title": "Notícias e Novidades",
+    "subtitle": "Fique por dentro das últimas atualizações fiscais, tributárias e trabalhistas. Informação é poder para o seu negócio.",
+    "readMore": "Leia mais",
+    "cta": {
+      "text": "Quer receber nossas atualizações diretamente no seu e-mail?",
+      "button": "Ativar notificações"
+    },
+    "items": {
+      "item1": {
+        "date": "15 de Março, 2025",
+        "category": "Tributário",
+        "title": "Prazo para declaração do Imposto de Renda 2025",
+        "description": "Fique atento aos prazos e documentos necessários para a declaração do IR deste ano. Nossa equipe está pronta para ajudar você."
+      },
+      "item2": {
+        "date": "08 de Março, 2025",
+        "category": "Trabalhista",
+        "title": "Mudanças no eSocial para 2025",
+        "description": "Novas obrigações entraram em vigor. Saiba como a Zetec pode manter sua empresa em conformidade com as novas regras."
+      },
+      "item3": {
+        "date": "01 de Março, 2025",
+        "category": "Planejamento",
+        "title": "Planejamento tributário: economize de forma legal",
+        "description": "Descubra como um bom planejamento tributário pode reduzir a carga de impostos da sua empresa sem infringir a lei."
+      }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Estamos prontos para atender você. Entre em contato por telefone, e-mail ou preencha o formulário abaixo.",
+    "info": {
+      "address": "Endereço",
+      "addressContent": "Rua Expedicionário, 1607",
+      "addressSubtitle": "Centro, Sertãozinho - SP",
+      "phone": "Telefone",
+      "phoneContent": "(16) 3942-5787",
+      "phoneSubtitle": "WhatsApp: (16) 99202-9148",
+      "email": "E-mail",
+      "emailContent": "zeteccontabil@hotmail.com",
+      "emailSubtitle": "Respondemos em até 24h",
+      "hours": "Horário",
+      "hoursContent": "Segunda a Sexta",
+      "hoursSubtitle": "08:00 às 18:00"
+    },
+    "form": {
+      "title": "Envie sua mensagem",
+      "name": "Nome completo",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "messagePlaceholder": "Como podemos ajudar você?",
+      "submit": "Enviar mensagem",
+      "success": "Mensagem enviada!",
+      "successDescription": "Entraremos em contato em breve. Obrigado!",
+      "error": "Campos obrigatórios",
+      "errorDescription": "Por favor, preencha todos os campos obrigatórios."
+    },
+    "map": {
+      "title": "Nossa localização",
+      "subtitle": "Visite nosso escritório no coração de Sertãozinho"
+    }
+  },
+  "footer": {
+    "brand": "Soluções contábeis de excelência para o crescimento seguro e sustentável do seu negócio.",
+    "quickLinks": "Links Rápidos",
+    "aboutUs": "Sobre Nós",
+    "contactInfo": "Contato",
+    "copyright": "Zetec Serviços Contábeis. Todos os direitos reservados."
+  },
+  "whatsapp": {
+    "aria": "Fale conosco pelo WhatsApp"
+  }
+}
