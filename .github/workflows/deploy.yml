@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build (force production mode)
-        run: npm run build -- --mode=production 
+        run: npm run build
 
       - name: Create SPA fallback
         run: cp dist/index.html dist/404.html
