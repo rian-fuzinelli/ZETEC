@@ -38,6 +38,7 @@ const Header = () => {
     { label: t('header.services'), id: "services" },
     { label: t('header.news'), id: "news" },
     { label: t('header.contact'), id: "contact" },
+    { label: t('header.credits'), id: "credits" },
   ];
 
   const languages = [

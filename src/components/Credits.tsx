@@ -51,7 +51,7 @@ const Credits = () => {
   ];
 
   return (
-    <section id="credits" className="py-20 bg-background dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-950">
+    <section id="credits" className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
