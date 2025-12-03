@@ -162,5 +162,65 @@
   },
   "whatsapp": {
     "aria": "Contact us on WhatsApp"
+  },
+  "credits": {
+    "title": "Credits",
+    "subtitle": "Meet the development team that made this project possible",
+    "sections": {
+      "students": {
+        "title": "Developers",
+        "items": [
+          {
+            "name": "Anabelle Aparecida Leme Minetto",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Eduardo Merlin Simão",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Henrique Ribeiro Bonafim",
+            "description": "Development and Design"
+          },
+          {
+            "name": "José Francisco dos Santos Neto",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Júlia dos Santos",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Lucas de Oliveira Nascimento",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Matheus Pereira Marques",
+            "description": "Development and Design"
+          },
+          {
+            "name": "Rian Caio Fuzinelli",
+            "description": "Development and Design"
+          }
+        ]
+      },
+      "team": {
+        "title": "Zetec Team",
+        "description": "Developed in partnership with the Zetec Accounting Services team"
+      },
+      "institution": {
+        "title": "Institution",
+        "items": [
+          {
+            "name": "UNISAGRADO",
+            "description": "Sagrado Coração University Center"
+          },
+          {
+            "name": "Coordinator",
+            "description": "Elvio Silva"
+          }
+        ]
+      }
+    }
   }
 }

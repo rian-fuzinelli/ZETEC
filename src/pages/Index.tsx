@@ -5,6 +5,7 @@ import Services from "@/components/Services";
 import Differentials from "@/components/Differentials";
 import News from "@/components/News";
 import Contact from "@/components/Contact";
+import Credits from "@/components/Credits";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -19,6 +20,7 @@ const Index = () => {
         <Differentials />
         <News />
         <Contact />
+        <Credits />
       </main>
       <Footer />
       <WhatsAppButton />
