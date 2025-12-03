@@ -205,10 +205,6 @@
           }
         ]
       },
-      "team": {
-        "title": "Equipe Zetec",
-        "description": "Desenvolvido em parceria com a equipe Zetec Serviços Contábeis"
-      },
       "institution": {
         "title": "Instituição",
         "items": [
@@ -221,6 +217,14 @@
             "description": "Elvio Silva"
           }
         ]
+      },
+      "extension": {
+        "title": "Projeto de Extensão",
+        "name": "Fábrica de Software",
+        "description": "Desenvolvimento de Websites, Aplicativos e Jogos"
+      },
+      "support": {
+        "title": "Apoio"
       }
     }
   }

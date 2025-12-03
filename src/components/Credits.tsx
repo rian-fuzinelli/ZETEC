@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Briefcase, Users, Building2 } from "lucide-react";
+import { Users, Building2, Lightbulb } from "lucide-react";
 
 const Credits = () => {
   const { t } = useTranslation();
@@ -87,19 +87,22 @@ const Credits = () => {
             </div>
           </div>
 
-          {/* Two Column Section for Team and Institution */}
+          {/* Institution and Extension Sections */}
           <div className="grid md:grid-cols-2 gap-12">
-            {/* Team Section */}
+            {/* Extension Project Section */}
             <div className="text-center">
-              <div className="p-8 bg-gradient-to-r from-primary/5 to-accent/5 rounded-lg border border-border h-full flex flex-col justify-center">
+              <div className="p-8 bg-gradient-to-r from-accent/5 to-primary/5 rounded-lg border border-border flex flex-col justify-center h-full">
                 <div className="flex justify-center mb-4">
-                  <Briefcase className="w-8 h-8 text-accent" />
+                  <Lightbulb className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary dark:text-primary-foreground mb-4">
-                  {t('credits.sections.team.title')}
+                <h3 className="text-2xl font-bold text-primary dark:text-primary-foreground mb-2">
+                  {t('credits.sections.extension.title')}
                 </h3>
+                <p className="text-lg font-semibold text-accent mb-2">
+                  {t('credits.sections.extension.name')}
+                </p>
                 <p className="text-muted-foreground">
-                  {t('credits.sections.team.description')}
+                  {t('credits.sections.extension.description')}
                 </p>
               </div>
             </div>
@@ -124,6 +127,17 @@ const Credits = () => {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+
+          {/* Support Section */}
+            <div className="mt-8 text-center">
+            <div className="flex justify-center">
+              <img
+                src="/assets/unisagrado.png"
+                alt="UNISAGRADO"
+                className="h-32 object-contain rounded-2xl"
+              />
             </div>
           </div>
         </div>

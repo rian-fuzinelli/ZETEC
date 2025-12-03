@@ -205,10 +205,6 @@
           }
         ]
       },
-      "team": {
-        "title": "Zetec Team",
-        "description": "Developed in partnership with the Zetec Accounting Services team"
-      },
       "institution": {
         "title": "Institution",
         "items": [
@@ -221,6 +217,14 @@
             "description": "Elvio Silva"
           }
         ]
+      },
+      "extension": {
+        "title": "Extension Project",
+        "name": "Software Factory",
+        "description": "Development of Websites, Applications and Games"
+      },
+      "support": {
+        "title": "Support"
       }
     }
   }
