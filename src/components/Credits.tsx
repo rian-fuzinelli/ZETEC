@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Heart, Users } from "lucide-react";
+import { Briefcase, Users, Building2 } from "lucide-react";
 
 const Credits = () => {
   const { t } = useTranslation();
@@ -93,7 +93,7 @@ const Credits = () => {
             <div className="text-center">
               <div className="p-8 bg-gradient-to-r from-primary/5 to-accent/5 rounded-lg border border-border h-full flex flex-col justify-center">
                 <div className="flex justify-center mb-4">
-                  <Heart className="w-8 h-8 text-accent" />
+                  <Briefcase className="w-8 h-8 text-accent" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary dark:text-primary-foreground mb-4">
                   {t('credits.sections.team.title')}
@@ -107,7 +107,7 @@ const Credits = () => {
             {/* Institution Section */}
             <div className="space-y-6">
               <div className="flex items-center gap-3 mb-4">
-                <Heart className="w-8 h-8 text-accent" />
+                <Building2 className="w-8 h-8 text-accent" />
                 <h3 className="text-2xl font-bold text-primary dark:text-primary-foreground">
                   {t('credits.sections.institution.title')}
                 </h3>

@@ -61,6 +61,14 @@ const Footer = () => {
                   {t('header.contact')}
                 </button>
               </li>
+              <li>
+                <button
+                  onClick={() => document.getElementById('credits')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-foreground dark:text-primary-foreground/80 hover:text-accent transition-colors"
+                >
+                  {t('header.credits')}
+                </button>
+              </li>
             </ul>
           </div>
 
