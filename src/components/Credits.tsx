@@ -129,17 +129,6 @@ const Credits = () => {
               </div>
             </div>
           </div>
-
-          {/* Support Section */}
-            <div className="mt-8 text-center">
-            <div className="flex justify-center">
-              <img
-                src="/assets/unisagrado.png"
-                alt="UNISAGRADO"
-                className="h-32 object-contain rounded-2xl"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
