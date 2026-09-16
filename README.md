@@ -1,4 +1,3 @@
-
 # 📄 Zetec Project
 **Este repositório contém a landing page moderna e de alto desempenho desenvolvida para apresentação e desenvolvimento de projetos, construída com tecnologias modernas como React, TypeScript, Tailwind CSS e shadcn-ui**. 
 
@@ -41,6 +40,7 @@ npm install
 
 # 4. Inicie o servidor de desenvolvimento
 npm run dev
+
 
 
 
